@@ -1,0 +1,115 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: 'candara';
+}
+
+.bg-container {
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.content-container {
+    background-image: url("https://res.cloudinary.com/dpyioz5tu/image/upload/v1685432482/7de6d7ab72baf5d90d3bc7c8e31b7a13_rss7tx.jpg");
+}
+
+.bts-section-card {
+    background-image: url("https://res.cloudinary.com/dpyioz5tu/image/upload/v1685634668/0131b4b73d9b17b50c4011405badfd8d_qalvfx.jpg");
+    text-align: center;
+    height: 30vh;
+    width: 100%;
+    background-color: transparent;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    padding: 5px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #660066;
+    font-size: 18px;
+    font-family: 'candara';
+    width: 128px;
+    height: 46px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: purple;
+    border-width: 1px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.button-1 {
+    color: #ffffff;
+    background-color: #ff9900;
+    font-size: 18px;
+    font-family: 'candara';
+    margin-right: 15px;
+    font-weight: bold;
+    border-width: 0px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 128px;
+    height: 46px;
+}
+
+.button-2 {
+    color: #ffffff;
+    background-color: #ff9900;
+    font-size: 18px;
+    font-family: 'candara';
+    margin-left: 15px;
+    margin: 10px;
+    font-weight: bold;
+    width: 128px;
+    height: 46px;
+    border-width: 0px;
+    border-radius: 10px;
+}
+
+.main-heading {
+    font-family: "Bree Serif";
+    color: #cc33ff;
+}
+
+.paragraph {
+    font-family: "Bree Serif";
+    color: #ff6699;
+    margin-top: 15px;
+}
+
+.bts-bg-container {
+    background-image: radial-gradient(#fff8db, #fae38c);
+    padding: 20px;
+}
+
+.carousel-image {
+    height: 400px;
+    width: 400px;
+    padding: 20px;
+
+}
+
+.bts-main-heading {
+    text-align: left;
+    font-family: "Bree Serif";
+    color: #0066ff;
+    font-size: 35px;
+    padding-top: 5px;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.bts-description {
+    color: rgb(31, 2, 112);
+    font-size: 20px;
+    font-family: "roboto";
+    text-align: left;
+    margin-left: 10px;
+}
